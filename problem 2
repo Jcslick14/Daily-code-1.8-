@@ -1,0 +1,9 @@
+#1/8 Daily Code: Python loop and list review, File I/O, Recursion problem 2 Jeremy
+goats = ["harden", "Bo nix", "surtain"]
+print(goats)
+goats.append("hunter")
+print(goats)
+goats.sort()
+print(goats)
+goats.remove("harden")
+print(goats)
