@@ -1,11 +1,11 @@
 #1/8 Daily Code: Python loop and list review, File I/O, Recursion Jeremy
-#while loop to print the numbers 0-10 counting by 2s!
-num = 0 #starting point
-while num<50: #go one above 10 so it prints
+#while loop to print the numbers 50-0 counting by 5s!
+num = 50 #starting point
+while num>-1: #go one above 10 so it prints
     print(num, end = " ")
-    num += 5 #what you count by
-    
+    num -= 5 #what you count by
+
 #while loop to print "Broncos" until the user types "Ps2"
 UserInput = "somthing" #dummy value
-while UserInput != "javier stinks":
+while UserInput != "ps2":
     UserInput = input("Broncos")
